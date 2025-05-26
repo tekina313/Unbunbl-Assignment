@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Helvetica, sans-serif;
+    font-size: small;
+    
+}
+body {
+    overflow-x: hidden;
+  }
+
+#header{
+    
+    background-color: #fffaf5;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+#Logo {
+    height: 40px;
+    width: 100px;
+    margin-left: 30px;
+}
+.Action_container {
+    display: flex;
+}
+
+.Action{
+    text-align: center;
+    margin-right: 10px;
+    padding: 1px 10px 1px 10px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+#Book_Appointment{
+    background-color: #ff7800;
+    color: white;
+}
+
+#first_page_thumbnail{
+    display:flex ;
+    justify-content:space-between;    
+
+}
+
+#thumbnail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("Photos/background.png");
+    background-size: cover;
+    flex:7;
+    height: 500px;
+    position: relative;
+}
+#Doctor{
+    right:-600px;
+    position: absolute;
+    margin-top: 50px;
+    
+}
+
+#thumbnail>div{
+    background-color: rgba(215, 212, 212, 0.6);
+    width: 60%;    
+    padding: 30px;
+    
+}
+#thumbnail>div>p{
+    margin-left: 50px;
+
+}
+#Book_Appointment_2{
+    width: 150px;
+    height:30px;
+    margin-left: 50px;
+    padding: 4px 1px 1px 1px;
+    background-color:#ff7800;
+    color: white;
+    
+}
+.form-container {
+    max-width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+  }
+  
+  .paragraph {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+  }
+  
+  input[type="text"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 15px;
+    border: 1px solid #f5c39d;
+    border-radius: 25px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .captcha-wrapper {
+    display: flex;
+    overflow: hidden;
+    border: 1px solid #f5c39d;
+    border-radius: 25px;
+    margin-bottom: 15px;
+  }
+  
+  .captcha-wrapper input[type="text"] {
+    flex: 1;
+    border: none;
+    border-radius: 25px 0 0 25px;
+  }
+  
+  .captcha-box {
+    background-color: #4b2c1a;
+    color: white;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 0 25px 25px 0;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: flex-start;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-container input {
+    margin-right: 8px;
+    margin-top: 4px;
+  }
+  
+  .checkbox-container a {
+    color: #91492c;
+    text-decoration: underline;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff7800;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.rct-section {
+    background-color: #fffaf5;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.rct-heading{
+    font-size: 22px;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.rct-subheading {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.rct-cards-container {
+    display: flex;
+    justify-content:space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.rct-card {
+    background-color: white;
+    border: 1px solid #ffd9b2;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    text-align: left;
+    font-size: 14px;
+    display: flex;
+    
+}
+
+.rct-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #f5f5f5;
+}
+
+
+.rct-content {
+    padding: 20px;
+    
+}
+
+.rct-content ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.rct-content li {
+    margin-bottom: 5px;
+}
+
+.rct-price-label {
+    font-size: 13px;
+    color: #ff7800;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.rct-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.rct-btn {
+    background-color: #ff7800;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.smile-gallery {
+    background-color: #fffaf5;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.smile-heading {
+    font-size: 22px;
+    color: #1a1a1a;
+    margin-bottom: 5px;
+}
+
+.smile-subheading {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.smile-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+    border: 1px solid black;
+}
+
+.smile-card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    font-size: 14px;
+
+}
+
+.smile-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.smile-card .name {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.smile-card .location {
+    color: #ff7800;
+    font-size: 13px;
+}
+
+.why-clove-section {
+    background-color: #fffaf5;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.why-heading {
+    font-size: 22px;
+    color: #1a1a1a;
+    margin-bottom: 5px;
+}
+
+.why-subheading {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.why-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.why-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+    max-width: 400px;
+}
+
+.why-item {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 5px;
+}
+
+.plus-sign {
+    color: #ff7800;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 80px;
+}
+
+.why-image img {
+    max-width: 350px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.testimonial-section {
+    background-color: #fffaf5;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonial-heading {
+    font-size: 22px;
+    color: #1a1a1a;
+    margin-bottom: 5px;
+}
+
+.testimonial-subheading {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.testimonial-card {
+    width: 160px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.testimonial-card img {
+    width: 100%;
+    height: 60%;
+    border-radius: 16px;
+    margin-bottom: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.testimonial-card .name {
+    font-weight: bold;
+}
+
+.testimonial-card .location {
+    color: #555;
+    font-size: 13px;
+}
+
+.testimonial-card .treatment {
+    color: #ff7800;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.safety-section {
+    background-color: #fffaf5;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.safety-heading {
+    font-size: 22px;
+    color: #1a1a1a;
+    margin-bottom: 5px;
+}
+
+.safety-subheading {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.safety-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.safety-card {
+    width: 280px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.safety-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.safety-overlay {
+    background-color: #0e1d2c;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.safety-overlay.brown {
+    background-color: #4b2c1a;
+}
+
+.safety-overlay h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.orange-line {
+    width: 50px;
+    height: 4px;
+    background-color: #ff7800;
+    margin-bottom: 10px;
+}
+
+.safety-overlay p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.learn-more {
+    color: #ff7800;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.learn-more .arrow {
+    margin-left: 8px;
+    font-size: 16px;
+}
